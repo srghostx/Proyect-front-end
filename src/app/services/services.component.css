@@ -1,0 +1,135 @@
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services .icon-box {
+  text-align: center;
+  padding: 70px 20px 80px 20px;
+  transition: all ease-in-out 0.3s;
+  background: var(--white);
+  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+  border-radius: 40px;
+}
+
+.services .icon-box .icon {
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease-in-out 0.3s;
+  position: relative;
+
+}
+
+.services .icon-box .icon i {
+  font-size: 36px;
+  transition: 0.5s;
+  position: relative;
+}
+
+.services .icon-box .icon svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.services .icon-box .icon svg path {
+  transition: 0.5s;
+  fill: var(--white);
+}
+
+.services .icon-box h4 {
+  font-weight: 600;
+  margin: 10px 0 15px 0;
+  font-size: 22px;
+}
+
+.services .icon-box h4 a {
+  color: var(--gray);
+  transition: ease-in-out 0.3s;
+}
+
+.services .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.services .icon-box:hover {
+  border-color: var(--white);
+  box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
+}
+
+.services .iconbox-blue i {
+  color: var(--sky-blue);
+}
+
+.services .iconbox-blue:hover .icon i {
+  color: var(--white);
+}
+
+.services .iconbox-blue:hover .icon path {
+  fill: var(--sky-blue);
+}
+
+.services .iconbox-green i {
+  color: var(--green);
+}
+
+.services .iconbox-green:hover .icon i {
+  color: var(--white);
+}
+
+.services .iconbox-green:hover .icon path {
+  fill: var(--green);
+}
+
+.services .iconbox-pink i {
+  color: var(--pink);
+}
+
+.services .iconbox-pink:hover .icon i {
+  color: var(--white);
+}
+
+.services .iconbox-pink:hover .icon path {
+  fill: var(--pink);
+}
+
+.services .iconbox-yellow i {
+  color: var(--yellow);
+}
+
+.services .iconbox-yellow:hover .icon i {
+  color: var(--white);
+}
+
+.services .iconbox-yellow:hover .icon path {
+  fill: var(--yellow);
+}
+
+.services .iconbox-red i {
+  color: var(--orange);
+}
+
+.services .iconbox-red:hover .icon i {
+  color: var(--white);
+}
+
+.services .iconbox-red:hover .icon path {
+  fill: var(--orange);
+}
+
+.services .iconbox-teal i {
+  color: var(--aqua);
+}
+
+.services .iconbox-teal:hover .icon i {
+  color: var(--white);
+}
+
+.services .iconbox-teal:hover .icon path {
+  fill: var(--aqua);
+}
